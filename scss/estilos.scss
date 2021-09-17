@@ -4,7 +4,7 @@ $color_principal: pink;
 @import "bem";
 
 .logo {
-    color: pink;
+    color: rgb(247, 183, 131);
     text-shadow: 0px 2px 5px $color_principal;
     text-decoration: none; 
 }
@@ -15,7 +15,7 @@ $color_principal: pink;
 
 /*--------formularios-------*/
 .form{
-    background-color: rgb(165, 231, 159);
+    background-color: rgb(228, 190, 169);
     margin: auto;
     width: 90%;
     max-width: 400px;
@@ -108,6 +108,7 @@ $color_principal: pink;
     transform: scale(1);
 }
 
+
 @media (max-width:425px){
     .form__title{
         font-size: 1.8rem;
@@ -120,3 +121,6 @@ $color_principal: pink;
         width: 90% !important;
     }
 }
+
+
+

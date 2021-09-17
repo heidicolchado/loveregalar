@@ -14,25 +14,26 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
     <title>Tienda de Regalería - LoveRegalar</title>
 </head>
+    
 <body>
-  <!--encabezado-->
-  <header class="container-fluid">
-    <div class="row bg-dark py-1">
-      <div class="col-md-12">
-        <p class="text-light text-center">Tenemos 3, 6 y 12 cuotas sin interes! Sí y con todas las tarjetas!</p>
-      </div>
-    </div>
+    <!--encabezado-->
+    <header class="container-fluid bg-dark d-flex justify-content-center">
+    <p class="text-light">Tenemos 3, 6 y 12 cuotas sin interes!!! sii y con todas las tarjetas</p>
+    </header>
+    
+    <!-----titulo---->
     <div class="row bg-light.bg-gradient py-1">
       <div class="col-md-12 text-center">
         <a href="index.html" class="fs-1 logo">Love Regalar</a>
       </div>
     </div>
+    
+    <!-------navegador------>
     <div class="row align-items-center bg-light">
       <div class="col-md-12">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #b9b1b9;">
           <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -42,15 +43,10 @@
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Productos
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">box dia de</a></li>
-                    <li><a class="dropdown-item" href="#">box friend</a></li>
-                    <li><a class="dropdown-item" href="#">box novios</a></li>
-                  </ul>
+                <li class="nav-item">
+                  <a class="nav-link" href="productos.html">Productos</a>
+                </li>
+                
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="crear-cuenta.html">Crear Cuenta</a>
@@ -67,17 +63,17 @@
         </nav>
       </div>
     </div>
-  </header>
+  
   <!-- Contenido de la Página -->
   <main>
     <!--slider de imágenes -->
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
+      <div class="carousel-inner mt-5">
         <div class="carousel-item active" data-bs-interval="3000">
-          <img src="imagenes/photo4.jpg" class="d-block w-100" alt="slide1">
+          <img src="imagenes/1foto (2).jpg" class="d-block w-100" alt="slide1">
         </div>
         <div class="carousel-item" data-bs-interval="3000">
-          <img src="imagenes/photo3.jpg" class="d-block w-100" alt="slide2">
+          <img src="imagenes/3foto.jpg" class="d-block w-100" alt="slide2">
         </div>
         <div class="carousel-item" data-bs-interval="3000">
           <img src="imagenes/photo4.jpg" class="d-block w-100" alt="slide3">
@@ -96,7 +92,7 @@
     <section class="text-center pt-5" id="intro">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12 mt-4">
             <h1 class="p-3 fs-3 border-top border-3">"El ingrediente más importante es levantarse y hacer algo"</h1>
             <h2 class="text-primary text-center"> Tu Tienda De Regalería</h2>
             <p class="p-3 fs-4">Hola mi nombre es Heidi, y te vengo a ofrecer mi emprendimiento, <span class="text-primary">LoveRegalar</span> en una web donde te ofrezco mis productos, de regalería para que puedas darle un presente a quién más querés.</p>
@@ -114,13 +110,15 @@
     </section>
   </main>
   <!-------------pie de pagina------------------>
-  <footer class="container-fluid py-5">
+  <!------footer------>
+
+  <footer class="container-fluid py-4 mt-5">
     <div class="container"> 
-      <div class="row d-flex align-items-start">
+        <div class="row d-flex align-items-start">
         <div class="col-md-4 text-start text-white">
-          <a href="#" class="text-white"><i class="bi bi-facebook" style="font-size: 24px;"></i></a>
-          <a href="#" class="text-white"><i class="bi bi-instagram" style="font-size: 24px;"></i></a>
-          <a href="#" class="text-white"><i class="bi bi-twitter" style="font-size: 24px;"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100072566298566" class="text-white"><i class="bi bi-facebook" style="font-size: 24px;"></i></a>
+            <a href="https://www.instagram.com/loveregalar/" class="text-white"><i class="bi bi-instagram" style="font-size: 24px;"></i></a>
+            <a href="https://twitter.com/loveregalar" class="text-white"><i class="bi bi-twitter" style="font-size: 24px;"></i></a>
         </div>
         <div class="col-md-4 text-center text-white">
             <h1>Boletín informativo</h1>
@@ -129,19 +127,18 @@
             <input type="submit" value="Enviar">
         </div>
         <div class="col-md-4 text-end text-white">
-          Buenos Aires, Argentina <i class="bi bi-shop" data-text="xyz location"></i><br>
-          +54.911.5908.5673 <i class="bi bi-phone"></i><br>
-          loveregalar@gmail.com <i class="bi bi-envelope"></i>
+            Buenos Aires, Argentina <i class="bi bi-shop" data-text="xyz location"></i><br>
+            +54.911.5908.5673 <i class="bi bi-phone"></i><br>
+            loveregalar@gmail.com <i class="bi bi-envelope"></i>
         </div>
-      </div>
-      <div class="row pt-4">
+        </div>
+        <div class="row pt-4">
         <div class="col-md-12 text-white">
-          <h4 class="text-center">&copy; Love Regalar derechos reservados</h4>
+            <h4 class="text-center">&copy; Love Regalar derechos reservados</h4>
         </div>
-      </div>
     </div>
-  </footer>
-
+    </div>
+</footer>
 <!---------option 1: bootstrap bundle with popper----------------->
 <script src="js/bootstrap.bundle.min.js"></script>
 </body>

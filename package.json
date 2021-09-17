@@ -1,18 +1,25 @@
 {
   "name": "bootstrap-heidi-colchado",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "dependencies": {
+  "devDependencies": {
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.12"
   },
-  "devDependencies": {},
   "scripts": {
     "build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heidicolchado/loveregalar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/heidicolchado/loveregalar/issues"
+  },
+  "homepage": "https://github.com/heidicolchado/loveregalar#readme",
+  "description": ""
 }
