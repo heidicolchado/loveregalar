@@ -1,10 +1,10 @@
-$color_principal: pink;
+$color_principal: rgb(22, 21, 21);
 
 @import "estructura";
 @import "bem";
 
 .logo {
-    color: rgb(247, 183, 131);
+    color: rgb(12, 12, 11);
     text-shadow: 0px 2px 5px $color_principal;
     text-decoration: none; 
 }
